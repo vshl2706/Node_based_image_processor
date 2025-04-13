@@ -13,7 +13,7 @@ public:
                  std::shared_ptr<BaseNode> to, int inIdx);
 
     QImage executeGraph(std::shared_ptr<BaseNode> outputNode);
-
+ 
 private:
     std::vector<std::shared_ptr<BaseNode>> nodes;
     std::vector<NodeConnection> connections;

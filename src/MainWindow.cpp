@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     QMenu *fileMenu = menuBar()->addMenu("File");
     QAction *openAction = fileMenu->addAction("Open Image");
     connect(openAction, &QAction::triggered, this, &MainWindow::openImage);
-    
+     
     std::shared_ptr<ImageInputNode> inputNode;
 
 }

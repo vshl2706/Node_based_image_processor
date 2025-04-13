@@ -18,7 +18,7 @@ public:
 
     int getInputCount() const;
     int getOutputCount() const;
-
+ 
 protected:
     QString name;
     int inputCount;

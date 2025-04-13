@@ -12,7 +12,7 @@ void ImageInputNode::loadImage(const QString& path) {
     QImageReader reader(path);
     image = reader.read();
 }
-
+ 
 QImage ImageInputNode::getImage() const {
     return image;
 }

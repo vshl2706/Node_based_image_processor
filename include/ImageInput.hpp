@@ -17,6 +17,6 @@ public:
 private:
     QImage image;
     QString filePath;
-};
+}; 
 
 #endif // IMAGEINPUTNODE_HPP

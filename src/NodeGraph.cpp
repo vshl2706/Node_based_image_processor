@@ -13,4 +13,4 @@ QImage NodeGraph::executeGraph(std::shared_ptr<BaseNode> outputNode) {
     // For now, just return outputNode's process method with empty input
     std::vector<QImage> inputs; // Placeholder
     return outputNode->process(inputs);
-}
+} 

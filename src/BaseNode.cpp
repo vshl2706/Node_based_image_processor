@@ -9,7 +9,7 @@ QString BaseNode::getName() const {
 
 int BaseNode::getInputCount() const {
     return inputCount;
-}
+} 
 
 int BaseNode::getOutputCount() const {
     return outputCount;
