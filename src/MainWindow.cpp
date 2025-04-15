@@ -53,6 +53,10 @@ void MainWindow::openImage() {
         scene->clear();
         scene->addPixmap(QPixmap::fromImage(img));
     }
+    OutputNode* outputNode = new OutputNode();
+    graph->addNode(outputNode);
+    outputNode->exportToFile("output.png");
+
 }
 
 }

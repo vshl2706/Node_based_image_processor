@@ -17,7 +17,8 @@ public:
     virtual QImage process(const std::vector<QImage> &inputs) = 0;
 
     int getInputCount() const;
-    int getOutputCount() const;
+    virtual cv::Mat getOutputImage() const { return cv::Mat(); }
+
  
 protected:
     QString name;
